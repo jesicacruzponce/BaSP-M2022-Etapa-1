@@ -17,22 +17,28 @@
         <a href="https://www.github.com/">Github</a>
     </header>
     <aside>
-        <nav>
+        
             <section>
                 <menu type="toolbar">MENU</menu>
-                    <div class="topnav">
-                    <a href="#">Home</a>
-                    <a href="#">Signup</a>
-                    <a href="#">Login</a>
-                    <a href="#">Contact</a>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Singup</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
             </section>
             <section>
                 <menu type="toolbar">GET IN TOUCH</menu>
-                    <div class="topnav">
-                    <a href="#">Worked hours</a>
-                    <a href="#">Reports</a>
-                    <a href="#">Management</a>
-                    <a href="#">Roles</a>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Worked hours</a></li>
+                            <li><a href="#">Reports</a></li>
+                            <li><a href="#">Management</a></li>
+                            <li><a href="#">Roles</a></li>
+                        </ul>
+                    </nav>
             </section>
             <section>
                 <menu type="toolbar">TRACKGENIX</menu>
@@ -41,7 +47,7 @@
                     </p>
             </section>
             </nav>
-     </aside> 
+    </aside> 
      <main>
          <section>
             <img src="C:\Users\LENOVO\OneDrive\Escritorio\BaSP-M2022-Etapa-1\pic01.jpg" style="float:right; width:302px;height:332px">
@@ -187,6 +193,31 @@
         &nbsp;
         <section>
             <h1><b> Request information</b></h1>
+            <form action="/action_page.php"></form>
+                <label for="nombre">
+                <input type="text" id=nombre name="nombre" placeholder="Name">
+            </form>
+            <form action="/action_page.php"></form>   
+                <label for="email">
+                <input type="email" id=email name="email" placeholder="Email">
+                <input type="checkbox" id="copy" name="sendmeacopy" value="copy">
+                <label for="vehicle1"> Send me a copy</label>
+            <form action="/action_page.php"></form>
+                <label for="seleccionable"></label>
+                <select name="seleccionable" id=seleccionable>
+                    <option value="Category A">Category </option>
+                    <option value="Category B">Category A</option>
+                    <option value="Category C">Category B</option>
+                </select>
+            <form action="/action_page.php"></form>
+                <textarea name="comentarios" rows="10" cols="40">Enter your message</textarea>
+            <form action="/action_page.php"></form>
+                <input type="checkbox" id="human" name="iamahuman" value="human">
+                <label for="vehicle1"> I am a human</label>
+            <form action="/action_page.php"></form>
+                <input type="submit" value="Send Message">
+               
+            
         </section>
             
 
