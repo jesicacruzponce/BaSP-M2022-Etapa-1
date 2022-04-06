@@ -12,22 +12,13 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <i class="fa-solid fa-bars" id="btn-menu"></i>
-        <ul class="social-media-icon">
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"; ></i></a>
-            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
-            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></i></a>
-            <a href="https://www.github.com/"><i class="fa-brands fa-github-square"></i></a> 
-        </ul>
-        
-    </header>
-    <aside><div id="side-bar"> 
-            <section>
-                <menu type="toolbar">Menu</menu>
+    <aside>
+        <div id="side-bar"> 
+            <i class="fa-solid fa-bars" id="btn-menu"></i>
+            <section> 
+                <p class="menu-titles">Menu</p>
                     <nav>
-                        <ul>
+                        <ul class="menu"> 
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Singup</a></li>
                             <li><a href="#">Login</a></li>
@@ -36,9 +27,9 @@
                     </nav>
             </section>
             <section>
-                <menu type="toolbar">Get in touch</menu>
+                <p class="menu-titles">Get in touch</p>
                     <nav>
-                        <ul>
+                        <ul class="menu">
                             <li><a href="#">Worked hours</a></li>
                             <li><a href="#">Reports</a></li>
                             <li><a href="#">Management</a></li>
@@ -47,12 +38,22 @@
                     </nav>
             </section>
             <section>
-                <menu type="toolbar">Trackgenix</menu>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                <p class="menu-titles">Trackgenix</p>
+                    <p id="text-menu">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
                         printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
             </section>
-    </aside></div>
+        </div>    
+    </aside>
+    <header>
+        <ul class="social-media-icon">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"; ></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></i></a>
+            <a href="https://www.github.com/"><i class="fa-brands fa-github-square"></i></a> 
+        </ul>
+    </header>
      <main>
          <section> <div id="introduction">
              <h1><strong>Hi, we are Trackgenix SA</strong></h1>
@@ -154,7 +155,7 @@
         </section>
         <section>
             <h5>Reasons why you need us</h5>
-                <article><div class="first-box">
+                <div class="first-box">
                     <img src="Imagenes/1.jpg" class="images-landing">
                     <p class="subtitles.images"><strong>Productivity enhancer</strong></p>
                     <p class="text-images">
@@ -162,8 +163,8 @@
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type.
                     </p>
-                </article></div>
-                <article><div class="second-box">
+                </div>
+                <div class="second-box">
                     <img src="Imagenes/2.jpg "class="images-landing">
                     <p class="subtitles.images"><strong>Decision making</strong></p>
                     <p class="text-images">
@@ -171,8 +172,8 @@
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type.
                     </p>
-                </article></div>
-                <article><div class="third-box">
+                </div>
+                <div class="third-box">
                     <img src="Imagenes/3.jpg" class="images-landing">
                     <p class="subtitles.images"><strong>Work traceability</strong></p>
                     <p class="text-images">
@@ -180,8 +181,8 @@
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type.
                     </p>
-                </article></div>
-                <article><div class="fourth-box">
+                </div>
+                <div class="fourth-box">
                     <img src="Imagenes/4.jpg" class="images-landing">
                     <p class="subtitles.images"><strong>Leadership and team management</strong></p>
                     <p class="text-images">
@@ -189,70 +190,85 @@
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type.
                     </p>
-                </article></div>
+                </div>
         </section>
-        <section>
-            <h6><strong>Request information</strong></h6>
-            <div id="name"><form action="/action_page.php">
-                <label for="nombre">
-                <input type="text" id=nombre name="nombre" placeholder="Name">
-            </div></form>
-            <div id="email"><form action="/action_page.php"></form>   
-                <label for="email">
-                <input type="email" id=email name="email" placeholder="Email">
-                <input type="checkbox" id="copy" name="sendmeacopy" value="copy">
-                <label for="vehicle1"> Send me a copy</label>
-            </div><form action="/action_page.php"></form>
-                <label for="seleccionable"></label>
-                <select name="seleccionable"id=seleccionable>
-                    <option value="Category A">Category</option>
-                    <option value="Category B">Category A</option>
-                    <option value="Category C">Category B</option>
-                </select>
-            <div id="button-send-copy"><form action="/action_page.php"></form>
-                <textarea name="comentarios" rows="10" cols="40">Enter your message</textarea>
-            <form action="/action_page.php"></form>
+        <h6><strong>Request information</strong></h6>
+        <div id="request"> 
+            <div class="name">
+                <form action="/action_page.php" id="name"></form>
+                    <label for="nombre" id="name">
+                    <input type="text" id=nombre name="nombre" placeholder="Name">
+                    </form>
+            </div>
+            <div class="email">
+                <form action="/action_page.php"></form>
+                    <label for="email">
+                    <input type="email" id=email name="email" placeholder="Email">        
+            </div>
+            <div class="send-me">
+                <form action="/action_page.php"></form>
+                    <input type="checkbox" id="copy" name="sendmeacopy" value="copy">
+                    <label for="vehicle1"> Send me a copy</label>
+            </div>
+            <div class="category">
+                <form action="/action_page.php"></form>
+                    <label for="seleccionable"></label>
+                    <select name="seleccionable"id=seleccionable>
+                        <option value="Category A">Category</option>
+                        <option value="Category B">Category A</option>
+                        <option value="Category C">Category B</option>
+                    </select>
+            </div>
+            <div class="box-text">
+                <form action="/action_page.php"></form>
+                    <textarea name="comentarios" rows="10" cols="40">Enter your message</textarea>
+                <form action="/action_page.php"></form>
+            </div>
+            <div class="human">
                 <input type="checkbox" id="human" name="iamahuman" value="human">
                 <label for="vehicle1"> I am a human</label>
+            </div>
+            <div class="send">
             <form action="/action_page.php"></form>
-                <input type="submit" value="Send Message">      
-        </section>
-        <section>
-            <article>
-                <p><strong>Products</strong></p>
+            </div>
+                <input type="submit" value="Send Message" name="submit">      
+        </div>
+        <section><div id="final-page">
+            <div class="first-colum">
+                <p class="titles.final"><strong>Products</strong></p>
                 <nav>
-                    <ol>
+                    <ol class="products">
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Downloads</a></li>
                         <li><a href="#">Integratios</a></li>
                         <li><a href="#">Extras</a></li>
                     </ol>
                 </nav>
-            </article>
-            <article>
-                <p><strong>Company</strong></p>
+            </div>
+            <div class="second-colum"><article>
+                <p class="titles.final"><strong>Company</strong></p>
                 <nav>
-                    <ol>
+                    <ol class="company">
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Customers</a></li>
                         <li><a href="#">Resources</a></li>
                         <li><a href="#">Blog</a></li>
                     </ol>
                 </nav>
-            </article>
-            <article>
-                <p><strong>Support</strong></p>
+            </div></article>
+            <div class="third-colum"><article>
+                <p class="titles.final"><strong>Support</strong></p>
                 <nav>
-                    <ol>
+                    <ol class="support">
                         <li><a href="#">Help</a></li>
                         <li><a href="#">Tutorials</a></li>
                         <li><a href="#">API</a></li>
                         <li><a href="#">Contact</a></li>
                     </ol>
                 </nav>
-            </article>
-            <article>
-                <button>Prev</button>
+            </div></article>
+            <div id="pages">
+                <button class="btn-final">Prev</button>
                 <a href="#">1</a>
                 <a href="#">2</a>
                 <a href="#">3</a>
@@ -263,17 +279,17 @@
                 <a href="#">8</a>
                 <a href="#">9</a>
                 <a href="#">10</a>
-                <button>Next</button>
-            </article>       
-        </section>
+                <button class="btn-final">Next</button>
+            </div>       
+        </section></main></div>
     </main>
-    <footer>
+    <footer><div id="footer"> 
         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"; class="social-media-icon"></i></a>
         <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"; class="social-media-icon"></i></a>
         <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"; class="social-media-icon"></i></a>
         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"; class="social-media-icon"></i></i></a>
         <a href="https://www.github.com/"><i class="fa-brands fa-github-square"; class="social-media-icon"></i></a>
-        <p>Copyright 2022</p>
-    </footer>    
+        <p class="copy-right">Copyright 2022</p>
+    </footer></div>    
 </body>
 </html>
