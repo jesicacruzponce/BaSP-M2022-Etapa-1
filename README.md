@@ -1,7 +1,7 @@
 # BECOME A SOFTWARE PROFESSIONAL 2022 
-## SEMANA-02: Trackgenix landing page in HTML
-The landing page contains information about the business, its history, features and services they provide.
-## SEMANA-03: Trackgenix landing page in CSS
-
+## WEEK-02: Trackgenix landing page in HTML
+This week, I edited the HTML code.
+## WEEK-03: Trackgenix landing page in CSS
+This week, I defined styles for the landing page.
 
 Author: Cruz Ponce, Jesica

@@ -6,59 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing web</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="whole.content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <aside>
-        <div id="side-bar"> 
-            <i class="fa-solid fa-bars" id="btn-menu"></i>
-            <section> 
-                <p class="menu-titles">Menu</p>
-                    <nav>
-                        <ul class="menu"> 
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Singup</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-            </section>
-            <section>
-                <p class="menu-titles">Get in touch</p>
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="#">Worked hours</a></li>
-                            <li><a href="#">Reports</a></li>
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">Roles</a></li>
-                        </ul>
-                    </nav>
-            </section>
-            <section>
-                <p class="menu-titles">Trackgenix</p>
-                    <p id="text-menu">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                        printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-            </section>
-        </div>    
+        <div id="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="conteiners-menu"> 
+            <p class="menu-titles">Menu</p>
+            <nav>
+                <ul class="menu"> ¡
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Singup</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="conteiners-menu">
+            <p class="menu-titles">Get in touch</p>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Worked hours</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Management</a></li>
+                    <li><a href="#">Roles</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="conteiners-menu"> 
+            <p class="menu-titles">Trackgenix</p>
+            <p id="text-menu">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+            printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+        </div>   
     </aside>
     <header>
-        <ul class="social-media-icon">
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"; ></i></a>
-            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
-            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></i></a>
-            <a href="https://www.github.com/"><i class="fa-brands fa-github-square"></i></a> 
-        </ul>
+        <div class="social-media-icon">
+            <ul>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i>
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i>
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>
+                <a href="https://www.github.com/"><i class="fa-brands fa-github"></i>
+            </ul>
+        </div>
+        <div id="line-header">
+        </div>
     </header>
      <main>
-         <section> <div id="introduction">
-             <h1><strong>Hi, we are Trackgenix SA</strong></h1>
+         <section><div id="introduction">
             <img src="Imagenes/pic01.jpg" id="first-image">            
-            <h2>A FREE AND FULLY RESPONSIBE SITE</h2>
+            <h1><strong>Hi, we are Trackgenix SA</strong></h1>
+            <h2>A FREE AND FULLY RESPONSIBE SITE</h2> 
             <p class="p1">
                 Scelerisque augue scelerisque pharetra, platea rutrum. Orci est faucibus tempor pellentesque vulputate. 
                 Arcu in cras iaculis scelerisque odio venenatis magna nisl. Suspendisse maecenas ac sit urna neque eu amet, 
@@ -114,9 +123,9 @@
                 Sed vitae lacinia orci. Phasellus ut venenatis
             </p>
         </section></div>
-        <section>
+        <section><div id="funcionalities">
             <h4>Functionalities</h4>
-                <article><div class="first-box">
+            <article><div class="first-box">
                     <img src="Imagenes/1.jpg" class="images-landing">
                     <p class="subtitles.images"><strong>Record of worked hours</strong></p>
                     <p class="text-images">
@@ -152,7 +161,7 @@
                         of type and scrambled it to make a type.
                     </p>
                 </article></div>
-        </section>
+        </section></div>
         <section>
             <h5>Reasons why you need us</h5>
                 <div class="first-box">
@@ -231,7 +240,7 @@
             <div class="send">
             <form action="/action_page.php"></form>
             </div>
-                <input type="submit" value="Send Message" class="submit">      
+                <input type="submit" value="Send Message" name="submit">      
         </div>
         <section><div id="final-page">
             <div class="first-colum">
