@@ -64,8 +64,15 @@ h3, h4, h5, h6{
     align-self: flex-start;
 }
 
+#funcionalities,#reasons-why-you-need-us{
+    display: flex;
+    
+
+}
+
 .subtitles-images,.text-images{
     background-color: blue;
+
 
 }
 
