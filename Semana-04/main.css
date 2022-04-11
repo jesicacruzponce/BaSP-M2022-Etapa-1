@@ -6,13 +6,16 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    
 }
+
 #introduction,#history, #funcionalities, #reasons-why-you-need-us,#request-info, #final-page{
     display: flex;
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 #btn-learn-more{
@@ -31,13 +34,16 @@ main{
     height: 150px;
     width:230px;
 }
+
 h1{
     font-size: 34px;
     margin-top: 30px;
 }
+
 h2{ font-size: 14px;
     margin-top: 15px;
 }
+
 .introduction-text, .p-history,.text-images{
     text-align: justify;
     font-size: 11px;
@@ -64,18 +70,13 @@ h3, h4, h5, h6{
     align-self: flex-start;
 }
 
-#funcionalities,#reasons-why-you-need-us{
+
+.subtitles-images{
+    text-align: center;
+
+}
+
+.first-box, .second-box, .third-box, .fourth-box{
     display: flex;
-    
+    flex-direction: row;
 
-}
-
-.subtitles-images,.text-images{
-    background-color: blue;
-
-
-}
-
-#request-info{
-    font-size: 12px;
-}
