@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, p{
+    color:rgba(55, 56, 103, 1);
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+#introduction,#history, #funcionalities, #reasons-why-you-need-us,#request-info, #final-page{
+    background-color: chocolate;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first-image{
+    width: 217px;
+    height:264px;
+    margin-top: 30px;
+}
+
+#second-image, #third-image{
+    height: 150px;
+    width:230px;
+}
+h1{
+    font-size: 34px;
+    margin-top: 30px;
+}
+h2{ font-size: 14px;
+    margin-top: 15px;
+}
+.introduction-text{
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+h3, h4, h5, h6{
+    font-size: 28px;
+    margin-top:15px;
+}

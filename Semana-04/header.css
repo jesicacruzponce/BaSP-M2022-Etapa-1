@@ -1,3 +1,17 @@
-header
-#social-media-icon
-#line-header
+.header{
+    height:100px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#social-media-icon{
+    background-color:brown;
+    align-self: end;
+}
+
+#line-header{
+    background-color: lightcoral;
+    display: flex;
+}
+

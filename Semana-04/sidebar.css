@@ -1,3 +1,29 @@
-aside
-#btn.menu
-.conteiners-menu
+aside{
+    background-color: blueviolet;
+    float:left;
+    width: 200px;
+    height: 100%;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+
+.btn-menu{
+    display: flex;
+    background-color: beige;
+    align-self: flex-end; 
+    padding-right: 40px;
+}
+.conteiners-menu{
+    background-color: azure;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
