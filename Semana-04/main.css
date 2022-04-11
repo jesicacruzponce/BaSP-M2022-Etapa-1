@@ -9,11 +9,16 @@ main{
     
 }
 #introduction,#history, #funcionalities, #reasons-why-you-need-us,#request-info, #final-page{
-    background-color: chocolate;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
+}
+
+#btn-learn-more{
+    display: flex;
+    flex-direction: column;
+    align-self:center;
 }
 
 #first-image{
@@ -33,10 +38,10 @@ h1{
 h2{ font-size: 14px;
     margin-top: 15px;
 }
-.introduction-text{
+.introduction-text, .p-history,.text-images{
     text-align: justify;
     font-size: 11px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -44,5 +49,26 @@ h2{ font-size: 14px;
 
 h3, h4, h5, h6{
     font-size: 28px;
-    margin-top:15px;
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+
+.first-box, .second-box, .third-box, .fourth-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-landing{
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.subtitles-images,.text-images{
+    background-color: blue;
+
+}
+
+#request-info{
+    font-size: 12px;
 }
