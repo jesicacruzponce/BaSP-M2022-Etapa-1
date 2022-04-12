@@ -3,10 +3,6 @@ body{
     flex-direction: column;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-
-}
-
 @media screen and (min-width: 1280px) {
     main, footer{
         margin-left: 300px;

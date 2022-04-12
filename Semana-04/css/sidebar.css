@@ -12,6 +12,9 @@ aside{
     align-items: center;
     display: none;
 }
+p{
+  font-size: 12px;
+}
 
 @media screen and (min-width: 1280px) {
     aside{
