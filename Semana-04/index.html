@@ -222,49 +222,54 @@
                 </div>
             </div>
             <h6><strong>Request information</strong></h6>
-            <div class="request-boxes">
+            <div id="request-info">
+                <div class="request-boxes1">
                     <div class="request"> 
                         <form action="/action_page.php" id="name"></form>
                         <label for="nombre" id="name">
                         <input type="text" id=nombre name="nombre" placeholder="Name">
-                        </form>
                     </div>
                     <div class="email">
                         <form action="/action_page.php"></form>
-                            <label for="email">
-                            <input type="email" id=email name="email" placeholder="Email">        
+                        <label for="email">
+                        <input type="email" id=email name="email" placeholder="Email">        
+                    </div>
                 </div>
                 <div class="send-me">
-                        <form action="/action_page.php"></form>
-                            <input type="checkbox" id="copy" name="sendmeacopy" value="copy">
-                            <label for="vehicle1"> Send me a copy</label>
+                    <form action="/action_page.php"></form>
+                    <input type="checkbox" id="copy" name="sendmeacopy" value="copy">
+                    <label for="vehicle1"> Send me a copy</label>
                 </div>
-            </div>
-            <div class="request-boxes">
-                <div class="category">
-                        <form action="/action_page.php"></form>
-                            <label for="seleccionable"></label>
-                            <select name="seleccionable"id=seleccionable>
-                                <option value="Category A">Category</option>
-                                <option value="Category B">Category A</option>
-                                <option value="Category C">Category B</option>
-                            </select>
+                <div class="request-boxes2">
+                    <div class="category">
+                            <form action="/action_page.php"></form>
+                                <label for="seleccionable"></label>
+                                <select name="seleccionable"id="seleccionable">
+                                    <option value="Category A">Human Resources</option>
+                                    <option value="Category B">Human Resources A</option>
+                                    <option value="Category C">Human Resources B</option>
+                                    <option value="Category D">Human Resources C</option>
+                                    <option value="Category E">Human Resources D</option>
+                                </select>
+                    </div>
                 </div>
-            </div>
-
-                <div class="box-text">
-                        <form action="/action_page.php"></form>
-                            <textarea name="comentarios" rows="10" cols="40">Enter your message</textarea>
-                        <form action="/action_page.php"></form>
+                <div class="request-boxes">
+                    <div class="box-text">
+                            <form action="/action_page.php"></form>
+                                <textarea name="comentarios" rows="10" cols="59">Enter your message</textarea>
+                            <form action="/action_page.php"></form>
+                    </div>
                 </div>
                 <div class="human">
-                        <input type="checkbox" id="human" name="iamahuman" value="human">
-                        <label for="vehicle1"> I am a human</label>
+                    <input type="checkbox" id="human" name="iamahuman" value="human">
+                    <label for="vehicle1"> I am a human</label>
                 </div>
                 <div class="send">
                     <form action="/action_page.php"></form>
                 </div>
+                <div class="submit">
                     <input type="submit" value="Send Message" name="submit">
+                </div>
             </div>
             <div id="final-page">
                 <div class="first-colum">

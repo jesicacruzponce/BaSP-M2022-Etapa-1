@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, p{
     color:rgba(55, 56, 103, 1);
     text-align: center;
 }
+h6{
+    color:black;
+    text-align: center;
+}
 
 main{
     display:flex;
@@ -103,6 +107,43 @@ h3, h4, h5, h6{
     #reasons-why-you-need-us{
         flex-direction: row;
     }
+
+    #request-info{
+        flex-direction: column;
+        justify-content: stretch;
+        height: 350px;
+    }
+    .request-boxes1, .request-boxes2, .request-boxes3, .send-me{
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+    }
+    .request-boxes1{
+        margin-top: 30px;
+        width: 450px;
+        justify-content: space-between;
+    }
+    .send-me{
+        margin-left: 330px;
+    }
+    .category{
+        width: 450px;
+        flex-direction: column;
+    }
+    #seleccionable{
+        width: 450px;
+    }
+    .box-text, .human, .submit{
+        width: 450px
+    }
+    .human, .submit{
+        text-align: right;
+        margin-top: 10px;
+        height: 35px;
+    }
+
+    
+}
 }
 
 
