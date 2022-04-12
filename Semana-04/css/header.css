@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#menu-bars{
+       
+}
+
+#icons-red-social{
+    background-color: red;
+    
+
+    
+
+}

@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, p{
     color:rgba(55, 56, 103, 1);
+    text-align: center;
 }
 
 main{
@@ -8,7 +9,8 @@ main{
     justify-content: space-around;
 }
 
-#introduction,#history, #funcionalities, #reasons-why-you-need-us,#request-info, #final-page{
+#introduction,#history, #funcionalities, #reasons-why-you-need-us,#request-info,
+#final-page{
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -17,6 +19,7 @@ main{
     margin-left: 20px;
     margin-bottom: 30px;
 }
+
 
 #btn-learn-more{
     display: flex;
@@ -79,4 +82,27 @@ h3, h4, h5, h6{
 .first-box, .second-box, .third-box, .fourth-box{
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (min-width: 1280px) {
+    #introduction{
+        flex-direction: row-reverse;
+        align-items: center;}
+    #history{
+        align-items: flex-end;
+    }
+    #second-image{
+        align-self: flex-start;}
+    h3{
+        align-self: center;
+    }
+    #funcionalities{
+        flex-direction: row;
+    }
+    
+    #reasons-why-you-need-us{
+        flex-direction: row;
+    }
+}
+
 
