@@ -1,0 +1,18 @@
+footer{
+    margin-left: 250px;
+    margin-right: 50px;
+    border-top: 3px;
+    border-top-style: solid;
+    border-top-color: rgba(55, 56, 103, 1);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer{
+    margin-top: 20px;
+}
+#copy{
+    padding-top: 30px;
+}

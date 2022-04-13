@@ -76,15 +76,7 @@ h2{
     font-size: 12px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
-
-.container-history{
-    background-color: aqua;
-    flex-direction: column;
-    justify-content: center;
-}
-
 
 h3, h4, h5, h6{
     font-size: 30px;
@@ -145,7 +137,13 @@ h3, h4, h5, h6{
         width:420px; 
     }
     #second-image{
-    align-self: flex-start;} 
+    align-self: flex-start;}
+
+    #history1{
+        flex-direction: row;
+        justify-content: center;
+    }
+    
     h3{
         align-self: center;
     }
@@ -215,7 +213,7 @@ h3, h4, h5, h6{
         font-size: 16px;
     }
     h1{
-        font-size: 50px;
+        font-size: 45px;
         text-align: left;
     }
     h2{ 
@@ -232,6 +230,7 @@ h3, h4, h5, h6{
     .p-history{
         font-size: 18px;
     }
+    
     .images-landing{
         margin-bottom: 10px;
         align-self: flex-start;
