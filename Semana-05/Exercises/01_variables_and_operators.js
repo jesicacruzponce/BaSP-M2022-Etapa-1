@@ -1,23 +1,25 @@
 //1. Variables y Operadores
-
-console.log('Suma de dos variables numéricas');
+//1.a)
+console.log('Exersice 1.a)');
 
 var a=10;
 var b=7;
 var c= a+b;
 
-console.log('La suma de A más B es igual a C, o sea que C es igual a '+ c);
+console.log('La suma de 10 más 7 es igual a '+ c);
 
-console.log('Concatenación dos variables de tipo string');
+//1.b)
+console.log('Exersice 1.b)');
 
 var nombre='Jesica';
 var apellido= 'Cruz Ponce';
-var nombreCompleto= nombre + apellido;
-console.log('Mi nombre es completo es ' + nombreCompleto);
+var nombreCompleto= nombre + ' ' + apellido;
+console.log('Mi nombre completo es ' + nombreCompleto);
 
-console.log('Suma del largo de dos variables');
+//1.c)
+console.log('Exersice 1.b)');
 
 var nombre1='Juan';
 var apellido1='Perez';
 var nombreCompleto1= nombre1 + apellido1;
-console.log('La cantidad de caracteres del nombre completo de Juan es igual a '+ nombreCompleto1.length)
+console.log('La cantidad de caracteres del nombre completo de Juan Perez es igual a '+ nombreCompleto1.length)
