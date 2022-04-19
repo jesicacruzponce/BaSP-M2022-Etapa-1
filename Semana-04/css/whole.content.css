@@ -3,16 +3,5 @@ body{
     flex-direction: column;
 }
 
-@media screen and (min-width: 1280px) {
-    main, footer, header{
-        margin-left: 330px;
-        margin-right: 60px;
-    }
-  }
 
-  @media screen and (max-width: 1024px){
-      main, footer, header{
-          margin-left: 20px;
-          margin-right: 20px;
-      }
-  }
+  
